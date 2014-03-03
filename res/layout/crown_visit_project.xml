@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ptr_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+   
+<ScrollView 
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+         
+ 
+    
+        <LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" 
+            >
+            <fragment
+            	android:id="@+id/fragment1"
+            	android:name="com.myitprovider.crownm.fragments.ListFragmentClass"
+            	android:layout_width="250dp"
+            	android:layout_height="match_parent"
+            	android:layout_marginTop="20dp" 
+            	/>
+        	
+
+            <RelativeLayout
+            	android:id="@+id/RelativeLayout1"
+            	android:layout_width="match_parent"
+            	android:layout_height="match_parent"
+            	android:gravity="right"
+            	android:orientation="vertical" 
+            	>
+
+            	<Spinner
+            		android:id="@+id/spinner1"
+            		android:layout_width="match_parent"
+            		android:layout_height="wrap_content"
+            		android:layout_alignLeft="@+id/spinner2"
+            		android:layout_alignTop="@+id/textView3"
+            		android:paddingLeft="10dp"
+            		android:paddingTop="30dp"
+            		android:popupBackground="#cc66ff" />
+
+            	<Spinner
+            		android:id="@+id/spinner3"
+            		android:layout_width="match_parent"
+            		android:layout_height="wrap_content"
+            		android:layout_alignLeft="@+id/spinner1"
+            		android:layout_alignTop="@+id/textView2"
+            		android:paddingLeft="10dp"
+            		android:paddingTop="30dp"
+            		android:popupBackground="#cc66ff" />
+
+            	<EditText
+            		android:id="@+id/editText1"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_alignParentLeft="true"
+            		android:layout_below="@+id/spinner3"
+            		android:layout_marginLeft="56dp"
+            		android:layout_marginTop="77dp"
+            		android:ems="10"
+            		android:hint="@string/feedback"
+            		android:inputType="textMultiLine"
+            		android:paddingTop="30dp" >
+
+            		<requestFocus />
+            	</EditText>
+
+            	<Spinner
+            		android:id="@+id/spinner2"
+            		android:layout_width="match_parent"
+            		android:layout_height="wrap_content"
+            		android:layout_alignLeft="@+id/button1"
+            		android:layout_alignTop="@+id/textView1"
+            		android:paddingLeft="10dp"
+            		android:paddingTop="30dp"
+            		android:popupBackground="#cc66ff" />
+
+            	<TextView
+            		android:id="@+id/textView3"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_alignParentLeft="true"
+            		android:layout_below="@+id/spinner2"
+            		android:layout_marginTop="18dp"
+            		android:paddingTop="30dp"
+            		android:text="@string/purpose"
+            		android:textSize="15sp" />
+
+            	<TextView
+            		android:id="@+id/textView2"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_alignParentLeft="true"
+            		android:layout_below="@+id/spinner1"
+            		android:layout_marginTop="18dp"
+            		android:paddingTop="30dp"
+            		android:text="@string/firm"
+            		android:textSize="15sp" />
+
+            	<TextView
+            		android:id="@+id/textView4"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_alignParentLeft="true"
+            		android:layout_below="@+id/spinner3"
+            		android:layout_marginTop="13dp"
+            		android:paddingTop="30dp"
+            		android:text="@string/person"
+            		android:textSize="15sp" />
+
+            	<Spinner
+            		android:id="@+id/spinner4"
+            		android:layout_width="match_parent"
+            		android:layout_height="wrap_content"
+            		android:layout_alignLeft="@+id/spinner3"
+            		android:layout_alignTop="@+id/textView4"
+            		android:paddingLeft="10dp"
+            		android:paddingTop="30dp"
+            		android:popupBackground="#cc66ff" />
+
+            	<ToggleButton
+            		android:id="@+id/toggleButton1"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_below="@+id/editText1"
+            		android:layout_toLeftOf="@+id/button1"
+            		android:textOff="OffSite"
+            		android:textOn="OnSite" />
+
+            	<TextView
+            		android:id="@+id/textView1"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_alignParentLeft="true"
+            		android:layout_alignParentTop="true"
+            		android:layout_marginTop="48dp"
+            		android:paddingTop="30dp"
+            		android:text="@string/availableprojects"
+            		android:textSize="15sp" />
+
+            	<Button
+            		android:id="@+id/button1"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_alignRight="@+id/editText1"
+            		android:layout_alignTop="@+id/toggleButton1"
+            		android:text="@string/visit" />
+            </RelativeLayout>
+ 
+        </LinearLayout>
+    </ScrollView>
+
+</uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout>
+    

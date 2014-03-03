@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Crown MSFA</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    
+     <!-- LoginClass -->
+      <string name="usname">Enter Your Username</string>
+   	  <string name="psword">Enter Your Password</string>
+   	  <string name="login">Login</string>
+   	  <string name="user_hint">Eg. John Doe</string>
+   	  <string name="password_hint">Password</string>
+   	 
+   	 <!-- VisitProject -->
+   	 <string name="firm">Select Firm</string>
+     <string name="person">Select Person To Visit</string>
+     <string name="purpose">Select Purpose Of Visit</string>
+     <string name="feedback">FeedBack</string>
+     <string name="availableprojects">Select Project</string>
+     <string name="visit">Visit</string>
+   
+       <!-- Crown ListRow Layout -->
+     <string name="thumbnaildesc">ShopThumbNail</string>
+     <string name="shop_name">CrownPaints SFA</string>
+     <string name="shop_contact">PHONE: +254722123456</string>
+     <string name="shop_last_vist">LAST VISIT: 01/01/2013</string>
+     <string name="order_create_date">ORDER CREATED: 01/01/2013</string>
+      <string name="order_status_date">ORDER STATUS:</string>
+   	 
+   	 <!-- NewProject -->
+      <string name="projectname">Project Name</string>
+      <string name="location">Location</string>
+      <string name="startdate">Start Date</string>
+      <string name="architect">Architect</string>
+      <string name="dev">Developer</string>
+      <string name="pm">Project Manager</string>
+      <string name="qs">Quantity Surveyor</string>
+      <string name="subcontractor">Painting Sub-contractor</string>
+      <string name="salesman">Salesperson Involved</string>
+      <string name="volume">Estimated Paint Volume</string>
+      <string name="value">Estimated Paint Value</string>
+      <string name="enddate">Expected Date Of Completion</string>
+      <string name="contacts">Contacts</string>
+      <string name="create">Create</string>
+      
+      <!-- CreateContact -->
+      <string name="email">Email Address</string>
+      <string name="desig">Designation</string> 
+      <string name="contactname">Name Of Person</string>
+      <string name="Firm">Firm</string>
+      
+      <!-- CreateFirm -->
+      <string name="phoneno">Phone Number</string>
+      <string name="ceo">CEO</string>
+      <string name="website">Website</string>
+      <string name="speciality">Speciality</string>
+      <string name="firmname">Firm Name</string>
+      <string name="businessarea">Business Area</string>
+      
+      <!-- ChangePassword -->
+       <string name="oldpsword">Old Password</string>
+       <string name="newpsword">New Password</string>
+       <string name="confirmpsword">Confirm New Password</string>
+       <string name="change">Change</string>
+       
+       <!-- App Names -->
+        <string name="contactappname">New Contact Person</string>
+        <string name="createfirmappname">New Firm</string>
+        <string name="newprojectappname">New Project</string>
+        <string name="changepasswordappname">Change Password</string>
+        <string name="loginappname">Login Here</string>
+        <string name="visitappname">Visit Project</string>
+      
+     <!-- Menu strings -->
+        <string name="change_password">Change Password</string>
+        <string name="logout">Logout</string>
+        <string name="forgot">Change Password</string>
+        <string name="options">Other Options</string>
+        <string name="newproject">New Project</string>
+        <string name="newcontact">New Contact</string>
+        <string name="newfirm">New Firm</string>
+         <string name="visitproject">Visit Project</string>
+    
+     <!-- URLS -->
+     <string name="common_url">http://197.254.42.106:85/crown/msfa_ws/bootstrap.php</string>
+     <string name="get_firms_url">http://197.254.42.106:85/crown/msfa_ws/bootstrap.php?t=firms</string>
+     <string name="get_contacts_url">http://197.254.42.106:85/crown/msfa_ws/bootstrap.php?t=contacts</string>
+     <string name="get_salesreps_url">http://197.254.42.106:85/crown/msfa_ws/bootstrap.php?t=salesreps</string>
+    
+
+</resources>
+    
+
+
